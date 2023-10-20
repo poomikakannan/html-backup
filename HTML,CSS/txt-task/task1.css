@@ -1,0 +1,44 @@
+/* element selectors*/
+h1{
+    color: brown;
+}
+/*id selectors*/
+#main{
+    color: aqua;
+    background-color: rgb(199, 146, 66);
+}
+/*class selectors*/
+.fas{
+    background-color: blue;
+}
+/*element, class selectors*/
+h1,.fas{
+    color: chartreuse;
+}
+* li{
+color: darkgreen;
+}
+/*multiple selectors*/
+h1,h2,p{
+text-align: center;
+}
+/* grouping selectors*/
+p{
+    color: blue;
+}
+/*descented selectors*/
+div p{
+    color: hotpink;
+}
+/* child selectors*/
+div>p{
+    color: brown;
+}
+/*adjcent selectors*/
+div +p{
+    color: aqua;
+}
+/*sibling selectors*/
+div~p{
+    color: chocolate;
+}

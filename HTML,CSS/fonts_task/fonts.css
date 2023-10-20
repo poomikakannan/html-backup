@@ -1,0 +1,14 @@
+#para1{
+    font-family: 'Pacifico', cursive;
+   
+
+}
+#para2{
+    display: none;
+    font-family: 'Caveat', cursive;
+}
+#para1:hover + #para2{
+        display: block;
+        color: palevioletred;
+    }
+

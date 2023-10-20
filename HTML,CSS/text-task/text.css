@@ -1,0 +1,36 @@
+.conterner{
+    max-width: 1000px;
+    margin: 40px;
+    width: 350px;
+    background-color: white;
+}
+.column{
+    width: 300px;
+    margin: 40px auto;
+    background-color: azure;
+    padding: 30px;
+}
+#blue{
+    background-color: blue;
+    width: 300px;
+    border: 10px solid brown;
+    padding: 20px;
+    background: url(back.jpeg);
+}
+#green{
+    background-color: green;
+    width: 300px;
+    border: 10px solid brown;
+    padding: 20px;
+    background: url(back.jpeg);
+}
+#orange{
+    background-color: orange;
+    width: 300px;
+    border: 10px solid brown;
+    padding: 20px;
+    background: url(back.jpeg);
+}
+button{
+    color: white;
+}

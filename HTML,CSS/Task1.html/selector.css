@@ -1,0 +1,9 @@
+p:nth-child(3n-1){
+    color: blue;
+}
+p:first-child{
+    color: blueviolet;
+}
+p:last-child{
+    color: red;
+}
